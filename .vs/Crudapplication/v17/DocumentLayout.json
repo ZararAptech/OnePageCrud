@@ -1,0 +1,244 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|c:\\users\\eshop\\source\\repos\\crudapplication\\crudapplication\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|solutionrelative:crudapplication\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|c:\\users\\eshop\\source\\repos\\crudapplication\\crudapplication\\views\\admin\\assignment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|solutionrelative:crudapplication\\views\\admin\\assignment.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|c:\\users\\eshop\\source\\repos\\crudapplication\\crudapplication\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|solutionrelative:crudapplication\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|c:\\users\\eshop\\source\\repos\\crudapplication\\crudapplication\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|solutionrelative:crudapplication\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|c:\\users\\eshop\\source\\repos\\crudapplication\\crudapplication\\migrations\\20241022043459_new1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|solutionrelative:crudapplication\\migrations\\20241022043459_new1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|c:\\users\\eshop\\source\\repos\\crudapplication\\crudapplication\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|solutionrelative:crudapplication\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|c:\\users\\eshop\\source\\repos\\crudapplication\\crudapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|solutionrelative:crudapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|c:\\users\\eshop\\source\\repos\\crudapplication\\crudapplication\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|solutionrelative:crudapplication\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|c:\\users\\eshop\\source\\repos\\crudapplication\\crudapplication\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|solutionrelative:crudapplication\\views\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|c:\\users\\eshop\\source\\repos\\crudapplication\\crudapplication\\views\\admin\\teacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|solutionrelative:crudapplication\\views\\admin\\teacher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|c:\\users\\eshop\\source\\repos\\crudapplication\\crudapplication\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|solutionrelative:crudapplication\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|c:\\users\\eshop\\source\\repos\\crudapplication\\crudapplication\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|solutionrelative:crudapplication\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Models\\Sassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Crudapplication\\Models\\Sassignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|c:\\users\\eshop\\source\\repos\\crudapplication\\crudapplication\\migrations\\20241022042955_1234.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81489DAB-0716-4CAD-A2CF-852D2614E3EB}|Crudapplication\\Crudapplication.csproj|solutionrelative:crudapplication\\migrations\\20241022042955_1234.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 245,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Assignment.cshtml",
+              "DocumentMoniker": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Views\\Admin\\Assignment.cshtml",
+              "RelativeDocumentMoniker": "Crudapplication\\Views\\Admin\\Assignment.cshtml",
+              "ToolTip": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Views\\Admin\\Assignment.cshtml",
+              "RelativeToolTip": "Crudapplication\\Views\\Admin\\Assignment.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T05:56:58.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20241022043459_new1.cs",
+              "DocumentMoniker": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Migrations\\20241022043459_new1.cs",
+              "RelativeDocumentMoniker": "Crudapplication\\Migrations\\20241022043459_new1.cs",
+              "ToolTip": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Migrations\\20241022043459_new1.cs",
+              "RelativeToolTip": "Crudapplication\\Migrations\\20241022043459_new1.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAABQwA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T04:34:59.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Crudapplication\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Crudapplication\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAIBJwHgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T11:25:34.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Crudapplication\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Models\\Student.cs",
+              "RelativeToolTip": "Crudapplication\\Models\\Student.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvxEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T09:03:16.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Views\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "Crudapplication\\Views\\Admin\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Views\\Admin\\Login.cshtml",
+              "RelativeToolTip": "Crudapplication\\Views\\Admin\\Login.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAIBJwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T07:31:52.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "Crudapplication\\Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Models\\Admin.cs",
+              "RelativeToolTip": "Crudapplication\\Models\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T07:19:09.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Crudapplication\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Crudapplication\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAuwFgAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T11:38:52.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20241022042955_1234.cs",
+              "DocumentMoniker": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Migrations\\20241022042955_1234.cs",
+              "RelativeDocumentMoniker": "Crudapplication\\Migrations\\20241022042955_1234.cs",
+              "ToolTip": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Migrations\\20241022042955_1234.cs",
+              "RelativeToolTip": "Crudapplication\\Migrations\\20241022042955_1234.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T04:29:55.309Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Sassignment.cs",
+              "DocumentMoniker": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Models\\Sassignment.cs",
+              "RelativeDocumentMoniker": "Crudapplication\\Models\\Sassignment.cs",
+              "ToolTip": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Models\\Sassignment.cs",
+              "RelativeToolTip": "Crudapplication\\Models\\Sassignment.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T04:33:06.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MyDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Data\\MyDbContext.cs",
+              "RelativeDocumentMoniker": "Crudapplication\\Data\\MyDbContext.cs",
+              "ToolTip": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Data\\MyDbContext.cs",
+              "RelativeToolTip": "Crudapplication\\Data\\MyDbContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAEBTwA4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T07:15:25.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "Crudapplication\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "Crudapplication\\Views\\Home\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T07:32:22.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Teacher.cshtml",
+              "DocumentMoniker": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Views\\Admin\\Teacher.cshtml",
+              "RelativeDocumentMoniker": "Crudapplication\\Views\\Admin\\Teacher.cshtml",
+              "ToolTip": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Views\\Admin\\Teacher.cshtml",
+              "RelativeToolTip": "Crudapplication\\Views\\Admin\\Teacher.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAIBJwFIAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-21T05:01:43.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Crudapplication\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Crudapplication\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAABQwB4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T07:34:16.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "Crudapplication\\Models\\Teacher.cs",
+              "ToolTip": "C:\\Users\\ESHOP\\source\\repos\\Crudapplication\\Crudapplication\\Models\\Teacher.cs",
+              "RelativeToolTip": "Crudapplication\\Models\\Teacher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T04:49:18.499Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

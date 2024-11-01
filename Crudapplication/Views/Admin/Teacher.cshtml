@@ -1,0 +1,97 @@
+﻿@model IEnumerable<Crudapplication.Models.Teacher>
+
+<h1>Register Students List</h1>
+<div class="container mt-5">
+    <div class="row mb-4">
+        <div class="col-lg-5">
+            <h2 class="text-center">Student Information</h2>
+            <table class="table  table-bordered table-striped shadow"> 
+              <thead class="thead-dark">
+                    <tr>
+                        <th>Teacher Id</th>
+                        <th>Teacher Name</th>
+                        <th>Teacher Email</th>
+                        <th>Teacher Password</th>
+                        <th>Teacher Subject</th>
+                    </tr>
+              </thead>
+              <tbody>
+                @foreach(var item in Model){
+                    <tr class="teacherform" teacherid="@item.tId" Teachername ="@item.Teachername" Teacheremail ="@item.Teacheremail" Teacherpassword ="@item.Teacherpassword" Teachersubject ="@item.Teachersubject">
+                        <td>@item.tId</td>
+                        <td>@item.Teachername</td>
+                        <td>@item.Teacheremail</td>
+                        <td>@item.Teacherpassword</td>
+                        <td>@item.Teachersubject</td>
+                    </tr>
+                }
+              </tbody>
+            </table>
+</div>
+
+<div class="col-lg-1">
+
+</div>
+        <div class="col-lg-4">
+            <form asp-action="Formclass" id="form">
+                <input type="hidden" name="tId" id="tid" />
+                <label class="form-label">Teacher Name</label>
+                <input type="text" name="Teachername" id="tname" class="form-control" />
+
+                <label class="form-label">Teacher Email</label>
+                <input type="email" name="Teacheremail" id="temail" class="form-control" />
+
+                <label class="form-label">Teacher Password</label>
+                <input type="text" name="Teacherpassword" id="tpassword" class="form-control" />
+
+                <label class="form-label">Teacher Subject</label>
+                <input type="text" name="Teachersubject" id="tsubject" class="form-control" />
+
+                <div class="d-inline-block">
+                    <button type="submit" name="taction" value="tInsert" onclick="user()" class="btn btn-primary">Insert</button>
+                    <button type="submit" name="taction" value="update" onclick="user()" class="btn btn-warning">Update</button>
+                    <button type="submit" name="taction" value="delete" onclick="user()" class="btn btn-danger">Delete</button>
+
+                
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+</div>
+
+
+                <script>
+                    function user() {
+        var tId = document.getElementById("tid").value.trim();
+        var tname = document.getElementById("tname").value.trim();
+        var temail = document.getElementById("temail").value.trim();
+        var tpassword = document.getElementById("tpassword").value.trim();
+        var tsubject = document.getElementById("tsubject").value.trim();
+
+        if (tname === "" || temail === "" || tpassword === "" || tsubject === "") {
+            alert("Enter All Credientials");
+        }
+        else {
+            document.getElementById("form").submit();
+        }
+
+                    }
+    document.querySelectorAll('.teacherform').forEach(item => {
+        item.addEventListener('click', function () {
+            const TeacherId = this.getAttribute('teacherid');
+            const Teachername = this.getAttribute('Teachername');
+            const Teacheremail = this.getAttribute('Teacheremail');
+            const TeacherPassword = this.getAttribute('Teacherpassword');
+            const Teachersubject = this.getAttribute('Teachersubject');
+
+            document.getElementById('tid').value = TeacherId;
+            document.getElementById('tname').value = Teachername;
+            document.getElementById('temail').value = Teacheremail;
+            document.getElementById('tpassword').value = TeacherPassword;
+            document.getElementById('tsubject').value = Teachersubject;
+
+
+        })
+    })</script>

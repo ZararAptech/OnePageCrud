@@ -1,0 +1,97 @@
+﻿@model IEnumerable<Crudapplication.Models.Student>
+@{
+    Layout = "_LayoutAdmin";
+}
+<h1>Register Students List</h1>
+<div class="container mt-5">
+    <div class="row mb-4">
+        <div class="col-lg-6">
+            <h2 class="text-center">Student Information</h2>
+            <table class="table table-bordered table-striped shadow">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Student ID</th>
+                        <th>Student Name</th>
+                        <th>Student Email</th>
+                        <th>Student Password</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr class="student-item" student-id ="@item.studentId" student-name ="@item.studentname" student-email="@item.studentemail" student-password="@item.studentpassword">
+                            <td>@item.studentId</td>
+                            <td>@item.studentname</td>
+                            <td>@item.studentemail</td>
+                            <td>@item.studentpassword</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="col-lg-1">
+
+        </div>
+        <div class="col-lg-4">
+            <form asp-action="HandleForm" id="form" asp-controller="Admin" class="row g-3">
+                <h2 class="text-center">Register Student</h2>
+
+                <input type="hidden" id="studentId" name="studentId" />
+
+                <div class="col-lg-12">
+                    <label class="form-label">Student Name</label>
+                    <input type="text" name="studentname" id="studentname" class="form-control" />
+                </div>
+
+                <div class="col-lg-12">
+                    <label class="form-label">Student Email</label>
+                    <input type="email" name="studentemail" id="studentemail" class="form-control" />
+                </div>
+
+                <div class="col-lg-12">
+                    <label class="form-label">Student Password</label>
+                    <input type="password" name="studentpassword" id="studentpassword" class="form-control" />
+                </div>
+
+                <div class="d-inline-block">
+                    <button type="submit" class="btn btn-primary mt-4" name="action" value="insert" onclick="user()">Insert</button>
+                    <button type="submit" class="btn btn-warning mt-4" name="action" value="update" onclick="user()">Update</button>
+                    <button type="submit" class="btn btn-danger mt-4" name="action" value="delete" onclick="user()">Delete</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+        <script>
+            function user() {
+                const studentname = document.getElementById("studentname").value.trim();
+                const studentemail = document.getElementById("studentemail").value.trim();
+                const studentpassword = document.getElementById("studentpassword").value.trim();
+
+                if (studentname === "" || studentemail === "" || studentpassword === ""){
+                    alert("Enter All Credientials");
+                }
+                else{
+                    document.getElementById("form").submit();
+                }
+            }
+    document.querySelectorAll('.student-item').forEach(item => {
+        item.addEventListener('click', function () {
+            const studentId = this.getAttribute('student-id');
+            const studentname = this.getAttribute('student-name');
+            const studentemail = this.getAttribute('student-email');
+            const studentpassword= this.getAttribute('student-password');
+            document.getElementById('studentId').value = studentId;
+            document.getElementById('studentname').value = studentname;
+            document.getElementById('studentemail').value = studentemail;
+            document.getElementById('studentpassword').value = studentpassword;
+
+        })
+    })
+        </script>

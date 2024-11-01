@@ -1,0 +1,21 @@
+﻿@model Crudapplication.Models.Admin
+
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <form asp-action="Login" asp-controller="Admin" class="p-4 border rounded shadow bg-light" style="width: 400px;">
+        <h2 class="text-center mb-4">Admin Login</h2>
+
+        <div class="mb-3">
+            <label class="form-label" for="adminEmail">Enter Your Email</label>
+            <input asp-for="AdminEmail" class="form-control" id="adminEmail" placeholder="you@example.com" required />
+            <span asp-validation-for="AdminEmail" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label" for="adminPassword">Enter Your Password</label>
+            <input asp-for="AdminPassword" type="password" class="form-control" id="adminPassword" placeholder="••••••••" required />
+            <span asp-validation-for="AdminPassword" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100">Login</button>
+    </form>
+</div>
